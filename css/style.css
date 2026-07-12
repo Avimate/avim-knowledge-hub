@@ -195,4 +195,10 @@ font-size:15px;
 
 }
 
+.card-link{
+text-decoration:none;
+color:white;
+display:block;
+}   
+   
 }
