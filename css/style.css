@@ -1,1 +1,198 @@
+/* ==========================
+   AVIM KNOWLEDGE HUB
+   Version 1.0
+========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:#0d1117;
+
+    color:#ffffff;
+
+}
+
+/* Header */
+
+header{
+
+    text-align:center;
+
+    padding:70px 20px;
+
+}
+
+header h1{
+
+    font-size:48px;
+
+    font-weight:700;
+
+}
+
+.tagline{
+
+    margin-top:15px;
+
+    color:#9ca3af;
+
+    font-size:18px;
+
+}
+
+/* Search */
+
+.search-box{
+
+    margin:40px auto;
+
+    width:550px;
+
+    max-width:90%;
+
+    display:flex;
+
+    align-items:center;
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:50px;
+
+    padding:16px 25px;
+
+}
+
+.search-box i{
+
+    color:#8b949e;
+
+    margin-right:15px;
+
+}
+
+.search-box input{
+
+    flex:1;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    outline:none;
+
+    font-size:16px;
+
+}
+
+/* Cards */
+
+.cards{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:25px;
+
+    padding-bottom:80px;
+
+}
+
+.card{
+
+    background:#161b22;
+
+    border:1px solid #30363d;
+
+    border-radius:18px;
+
+    padding:35px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#58a6ff;
+
+    box-shadow:0 15px 35px rgba(88,166,255,.18);
+
+}
+
+.card i{
+
+    font-size:45px;
+
+    color:#58a6ff;
+
+    margin-bottom:20px;
+
+}
+
+.card h2{
+
+    margin-bottom:15px;
+
+}
+
+.card p{
+
+    color:#9ca3af;
+
+    line-height:1.6;
+
+}
+
+/* Footer */
+
+footer{
+
+    text-align:center;
+
+    padding:30px;
+
+    border-top:1px solid #30363d;
+
+    color:#8b949e;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:34px;
+
+}
+
+.tagline{
+
+font-size:15px;
+
+}
+
+}
