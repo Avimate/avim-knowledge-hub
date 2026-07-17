@@ -18,7 +18,7 @@ FROM table_name;
 ## Example
 
 ```sql
-SELECT employee_name, salary
+SELECT employee_name, salargit statusy
 FROM employees;
 ```
 
